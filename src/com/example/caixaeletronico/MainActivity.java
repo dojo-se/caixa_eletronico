@@ -47,12 +47,12 @@ public class MainActivity extends Activity {
 		} catch (NumberFormatException e) {
 			// TODO Auto-generated catch block
 			//e.printStackTrace();
-			text.setText("Deve ser número inteiro");
+			text.setText("Deve ser numero inteiro");
 			return;
 		}
 		
 		if (quantia < 0){
-			text.setText("Deve ser número maior que zero");
+			text.setText("Deve ser numero maior que zero");
 			return;			
 		}
     	
@@ -68,7 +68,7 @@ public class MainActivity extends Activity {
 		notas = String.valueOf(qntNotas);
 		
 		if (quantia > 0) {
-    		notas = "Quantidade inválida!";
+    		notas = "Quantidade invalida!";
     	}
 		text.setText(notas);
     }
